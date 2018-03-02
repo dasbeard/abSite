@@ -1,0 +1,122 @@
+:root{
+    --color1: #f2f1f0;
+    --color2: #d9d9d8;
+    --color3: #878a8e;
+    --color4: #181818;
+}
+
+header{
+    background-color:var(--color4);    
+    height: 60px;
+}
+
+header a img{
+    margin-left: 2%;
+    margin-top: 0.5%;
+    width: 300px;
+}
+
+.title-bar{
+    background-color:var(--color4) !important;
+}
+
+.top-bar, .top-bar .menu{
+    background-color:var(--color4);
+}
+
+.top-bar .menu a{
+    color: var(--color2);
+}
+
+body{
+    background-color:var(--color3);
+}
+
+.main-container{
+    padding-top: 1rem;
+    color: var(--color4);
+}
+
+.main-container h2{
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+.main-container .pitch{
+    margin-bottom: 2.3rem;
+}
+
+.main-container .projects a img{
+    border-radius: 10px;
+}
+
+.projects{
+    /* max-height: 400px;
+    height: 25%;; */
+}
+
+.project{
+/* =========================== Not Right =========================== */
+    max-height: 400px;
+    margin-bottom: .8rem;
+    outline: 1px solid red;
+}
+
+.projectDesc{
+    margin-bottom: 0;
+}
+
+.project .projectDesc{
+    position:relative;
+    bottom: 90%;
+    visibility:hidden;
+}
+
+.project .projectDesc h4{
+    margin-bottom: 55%;
+}
+
+.project .projectDesc img{
+    max-width: 35px;
+    width: 15%;   
+}
+
+.project:hover .projectDesc{
+    visibility:visible;
+}
+
+.project:hover a{
+    opacity: .85;
+    filter: blur(2px);
+}
+
+.aboutUs{
+    margin-top: 3rem;
+}
+
+.aboutUs h2{
+    margin-bottom: 1.5rem;
+}
+
+
+
+
+
+
+@media screen and (max-width: 39.9375em) {
+    header a img{
+        margin-top: 0;        
+        width: 50%;
+        max-height: 60px;
+    }
+    
+    .title-bar{
+        margin-top: -50px;
+    }
+
+    .top-bar-right .menu{
+        /* margin-left: 25%; */
+        justify-content: center;
+    }
+
+}
