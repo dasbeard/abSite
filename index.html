@@ -8,7 +8,6 @@
 
     <link rel="stylesheet" href="css/foundation.css">
     <link rel="stylesheet" href="css/app.css">
-    <link rel="stylesheet" href="css/style.css">
     
 </head>
 <body>
@@ -23,9 +22,9 @@
       
     <div class="top-bar" id="responsive-menu" data-animate="fade-in fade-out">
         <div class="top-bar-right">
-            <ul class="menu">
-                <li><a href="#1">About Us</a></li>
-                <li><a href="#2">Contact</a></li>
+            <ul class="menu" >
+                <li><a href="#aboutUs">About Us</a></li>
+                <li><a href="#contactUs">Contact</a></li>
             </ul>
         </div>
     </div>
@@ -35,57 +34,102 @@
         <div class="grid-x grid-margin-x align-center text-center">
             <h2 class="pitch cell small-10">Websites starting at $499.99</h2>
         </div>
-        <div class="grid-x grid-margin-x align-spaced projects">        
-            
-            <div class="cell medium-auto text-center project">
-                <a href="#" class=""><img src="http://via.placeholder.com/350x400" alt=""></a>
-                <div class="projectDesc">
-                    <h4>Project Name 1</h4>
-                    <p>Built with these tools</p>
-                    <img src="./assets/Brands/bootstrap-solid.svg" alt="">
-                    <img src="./assets/Brands/bootstrap-solid.svg" alt="">
-                    <img src="./assets/Brands/bootstrap-solid.svg" alt="">
-                    <img src="./assets/Brands/bootstrap-solid.svg" alt="">
-                    <img src="./assets/Brands/bootstrap-solid.svg" alt="">
-                </div>
-            </div>
-
-            <div class="cell medium-auto text-center project">
-                <a href="#"><img src="http://via.placeholder.com/350x400" alt="" class="blur"></a>
-                <div class="projectDesc">
-                    <h4>Project Name 2</h4>
-                    <p>Built with these Other tools</p>
-                    <img src="./assets/Brands/bootstrap-solid.svg" alt="">
-                    <img src="./assets/Brands/bootstrap-solid.svg" alt="">
-                    <img src="./assets/Brands/bootstrap-solid.svg" alt="">
-                </div>
-            </div>
-
-            <div class="cell medium-auto text-center project">
-                <a href="#" class=""><img src="http://via.placeholder.com/350x400" alt=""></a>
-                <div class="projectDesc">
-                    <h4>Project Name 3</h4>
-                    <p>Built with these Cool tools</p>
-                    <img src="./assets/Brands/bootstrap-solid.svg" alt="">
-                    <img src="./assets/Brands/bootstrap-solid.svg" alt="">
-                    <img src="./assets/Brands/bootstrap-solid.svg" alt="">
-                    <img src="./assets/Brands/bootstrap-solid.svg" alt="">
-                </div>
-            </div>
-                
-            
-
-        </div>
-
-        <div class="grid-x grid-margin-x align-center aboutUs">        
-            <h2 class="cell text-center">About Us</h2>
-            <p class="cell small-10 text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione magni omnis consequuntur, corrupti harum rem dolorem nostrum voluptates voluptatum explicabo tempora distinctio in commodi. Et optio ullam mollitia similique sapiente! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos distinctio magnam earum culpa placeat odio dignissimos dolorum non inventore. Hic eaque pariatur sit dolore, exercitationem neque iste accusantium nostrum repellat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur cupiditate mollitia impedit aliquid itaque alias, quibusdam quisquam distinctio quo consectetur necessitatibus sed vero! Non porro quod molestiae excepturi voluptatem praesentium? Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto ratione soluta voluptatibus excepturi quae, porro illum sapiente rem explicabo earum ipsa dolores perferendis, libero, odio sunt repudiandae aliquam provident natus?</p>
-        </div>
         
+        <div class="grid-x grid-margin-x align-spaced text-center">        
+            
+            <div class="project cell medium-4">
+                <img class="projImg" src="./assets/Sites/HelpingHours.png" alt="">
+                <div class="info">
+                    <h4>HelpingHours.org</h4>
+                    <p>Built with</p>
+                    <img src="./assets/Brands/AngularJS-Shield-small.png" alt="">
+                    <img src="./assets/Brands/bootstrap-solid.svg" alt="">
+                </div>
+            </div>
+
+            <div class="project cell medium-4">
+                <img class="projImg" src="./assets/Sites/emani.gif" alt="">
+                <div class="info">
+                    <h4>Emani.com</h4>
+                    <p>Built with</p>
+                    <img src="./assets/Brands/shopify_glyph.svg" alt="">
+                </div>
+            </div>
+    
+            <div class="project cell medium-4">
+                <img class="projImg" src="./assets/Sites/templateSite.png" alt="">
+                <div class="info">
+                    <h4>Sample Page</h4>
+                    <p>Built with</p>
+                    <img src="./assets/Brands/bootstrap-solid.svg" alt="">
+                    <img src="./assets/Brands/bootstrap-solid.svg" alt="">
+                </div>
+            </div>
+    
+
+
+        </div>
+
+
+        <div class="grid-x grid-margin-x align-center aboutUs" id="aboutUs">        
+                <h2 class="cell text-center">About Us</h2>
+                <p class="cell small-10 text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione magni omnis consequuntur, corrupti harum rem dolorem nostrum voluptates voluptatum explicabo tempora distinctio in commodi. Et optio ullam mollitia similique sapiente! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos distinctio magnam earum culpa placeat odio dignissimos dolorum non inventore. Hic eaque pariatur sit dolore, exercitationem neque iste accusantium nostrum repellat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto ratione soluta voluptatibus excepturi quae, porro illum sapiente rem explicabo earum ipsa dolores perferendis, libero, odio sunt repudiandae aliquam provident natus?</p>
+        </div>
+    
+
+
+
+        <div class="grid-y medium-grid-frame" id="contactUs">
+            <div class="cell shrink header medium-cell-block-container">
+                <h2 class="text-center">Contact Us</h2>                
+            </div>
+
+            <div class="cell medium-auto medium-cell-block-container">
+                <form>
+                    <div class="grid-x grid-padding-x align-center">
+                        
+                        <div class="cell medium-5 medium-cell-block-y">
+                            <label>Name <span>*</span>
+                                <input type="text">
+                            </label>
+
+                            <label>Email <span>*</span>
+                                <input type="email">
+                            </label>
+                            
+                            <label>Phone Number <span>*</span>
+                                <input type="tel">
+                            </label>
+
+                        </div>
+                        
+                        <div class="cell medium-5 medium-cell-block-y">
+                            <label>Interested In <span>*</span>
+                                <select>
+                                    <option value="personalSite">Personal Website</option>
+                                    <option value="businessSite">Buisiness Website</option>
+                                    <option value="eComSite">E-Commerce</option>
+                                    <option value="marketing">Analytics/ Google AdWords</option>
+                                </select>
+                            </label>
+
+                            <label>
+                                Questions or Comments?
+                                <textarea></textarea>
+                            </label>
+                        </div>
+
+                    </div>
+
+                    <div class="grid-x grid-padding-x align-center">
+                            <a class="button" href="#">Submit</a>
+                    </div>
+                </form>
+            </div>        
+        </div>
+
 
     </div>
-
-
 
 
 
